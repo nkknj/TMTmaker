@@ -107,7 +107,7 @@ white=np.array([white_w, white_h])
 nodes=get_nodes(n_nodes, space, white, diameter)
 nodes=uncrosser(nodes, space, white, diameter)
 
-im=Image.new('RGB', (space[0], space[1]), (200, 200, 200))
+im=Image.new('RGB', (space[0], space[1]), (240, 240, 240))
 draw=ImageDraw.Draw(im)
 font = ImageFont.truetype("arial.ttf", 32)
 
